@@ -1,0 +1,6 @@
+Surfboard 外部配置说明
+
+1. 本仓库只保存公开的 Surfboard 模板、策略组和规则；不包含花云订阅、节点地址、密码或 token。
+2. Flower_Surfboard_External_Config.ini 通过 surfboard_rule_base 指向本仓库的 Base Overlay。
+3. 在你的私有订阅链接末尾附加 &config=，其值为 External Config 的 RAW URL 进行 URL 编码后的结果。
+4. 不要把你的订阅链接或 token 提交到此仓库。
